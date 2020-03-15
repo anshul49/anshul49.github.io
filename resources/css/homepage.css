@@ -1,0 +1,1309 @@
+
+body {
+    overflow-x: hidden;
+}
+
+#main {
+    
+}
+
+.custom-button {
+    display: inline-block;
+    padding: 0.5em;
+    margin: 1em;
+    cursor: pointer;
+    transition-duration: 0.3s;
+}
+
+.custom-button.red-button {
+    border-radius: 2px;
+    background-color: rgba(10, 10, 10, 0.6);
+    border: 2px solid #FF5F00;
+}
+
+.custom-button.red-button:first-of-type {
+    background-color: #FF5F00;
+}
+
+.custom-button.red-button:hover {
+    background-color: rgba(250, 250, 250, 0.8);
+    color: #fff;
+    text-decoration: underline;
+}
+
+.block-centered {
+    display: block;
+    margin: auto;
+}
+
+span.section-divider {
+    width: 100%;
+    height: 1px;
+    display: block;
+    background-color: #BDBDBD;
+    margin-top: 3em;
+}
+
+
+#main .landing {
+    position: relative;
+    background-image: url(../../resources/images/wood-floor/wood-floor-2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #555;
+    background-blend-mode: overlay;
+    background-attachment: fixed;
+    font-family: Roboto;
+    width: 100%;
+    height: 80vh;
+}
+
+/* WHY US */
+
+section.why-choose-us {
+    margin: auto;
+    color: #474747;
+    background-color: #fff;
+}
+
+.why-choose-us h1 {
+    font-family: Roboto Condensed;
+    position: relative;
+    color: #474747;
+    font-size: 2.2em;
+    width: 680px;
+    font-weight: lighter;
+    margin: 0 auto;
+    margin-top: 1.5em;
+    margin-bottom: 0.6em;
+    text-transform: uppercase;
+}
+
+.why-choose-us h4 {
+    font-weight: normal;
+    width: 60%;
+    margin: 0 auto 2em auto;
+    text-align: center;
+}
+
+.benefits-container {
+    background-size: cover;
+    width: 100%;
+    padding: 0;
+    color: #474747;
+}
+
+.benefits-list {
+    width: 80%;
+    margin: 0 auto;
+    font-size: 0;
+}
+
+.benefit {
+    font-size: 16px;
+    box-sizing: border-box;
+    display: inline-block;
+    width: 33%;
+    height: 330px;
+    overflow: hidden;
+    padding: 1em 1em 1em 1em;
+    position: relative;
+    border-right: 1px solid #BDBDBD;
+}
+
+.benefit:last-of-type {
+    margin-right: 0;
+    border: none;
+}
+
+.benefit .benefit-heading {
+    font-size: 1.4em;
+    font-family: Roboto Condensed;
+    margin: 1em 0 -1em 0;
+    font-weight: normal;
+    text-transform: uppercase;
+    width: 100%;
+    color: #272727;
+}
+
+.benefit img.icon {
+    width: 180px;
+}
+
+.benefit .icon {
+    display: block;
+    margin: auto;
+}
+
+.benefit .benefit-description {
+    padding: 1em;
+    text-align: center;
+    color: #474747;
+    font-family: Roboto Slab;
+}
+
+.benefit .dots {
+    width: 50px;
+    display: block;
+    margin: auto;
+    position: absolute;
+    bottom: 15px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+/* PRODUCTS */
+
+section.products {
+    color: #474747;
+    padding: 0em 3em 3em 3em;
+    position: relative;
+    overflow: hidden;
+}
+
+.products .brands {
+    width: 80%;
+    text-align: center;
+    margin: 0 auto;
+    padding-top: 1em;
+    clear: both;
+}
+
+.brands h1 {
+    font-family: Roboto Condensed;
+    font-size: 2.3em;
+    width: 382px;
+    display: block;
+    margin: 0.5em auto;
+    font-weight: lighter;
+    position: relative;
+}
+
+.brands h1:after {
+    content: "";
+    position: absolute;
+    right: -10px;
+    width: 35%;
+    top: 50%;
+    height: 1px;
+    background-color: #474747;
+}
+
+.brands h1:before {
+    content: "";
+    position: absolute;
+    left: -10px;
+    width: 35%;
+    top: 50%;
+    height: 1px;
+    background-color: #474747;
+}
+
+.brands img {
+    width: 80%;
+    margin: auto;
+    display: block;
+}
+
+.products-inner {
+    margin: 1em auto;
+    width: 1200px;
+    z-index: 1;
+}
+
+.products-header {
+    margin: auto;
+    width: 60%;
+    padding: 2px 0;
+    margin-bottom: 2em;
+    text-align: center;
+}
+
+.products-inner .products-header h1 {
+    font-size: 2.3em;
+    color: #212121;
+    font-family: Roboto Condensed;
+    font-weight: lighter;
+    margin-bottom: 0.3em;
+    position: relative;
+}
+
+.products-header p {
+    color: #757575;
+    font-family: Roboto Slab;
+    font-size: 1.2em;
+    position: relative;
+    z-index: 1;
+}
+
+.product-container {
+    margin: auto;
+    transform: translateZ(0px);
+}
+
+.product-container ul li {
+    width: 31.55%;
+    height: 470px;
+    margin-right: 25px;
+    display: inline-block;
+    margin-bottom: 25px;
+    overflow: hidden;
+	box-shadow: 0 2px 5px rgba(0, 0, 0, 0.4);
+	border-bottom: 1px solid #DFDFDF;
+	position: relative;
+	vertical-align: top;
+    border-radius: 3px;
+    transition: all 0.2s linear;
+    background-color: #fff;
+}
+
+.product-container ul li:hover {
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.5);
+    transform: scale(1.01);
+}
+
+.product-container .product-picture {
+    width: 100%;
+    height: 220px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#product-carpet .product-picture {
+    background-image: url(../../resources/images/carpet-floor/carpet-04-small.jpg);
+    background-position: left;
+}
+
+#product-hardwood .product-picture {
+    background-image: url(../../resources/images/wood-floor/wood-floor-6-small.jpeg);
+    background-position: center bottom;
+}
+
+#product-laminate .product-picture {
+    background-image: url(../../resources/images/laminate-floor/laminate-02-small.jpg);
+    background-position: center bottom;
+}
+
+#product-laminate {
+    margin-right: 0;
+}
+
+#product-tile .product-picture {
+    background-image: url(../../resources/images/tile-floor/tile-floor-01-small.jpg);
+}
+
+#product-tile {
+}
+
+#product-countertop .product-picture {
+    background-image: url(../../resources/images/countertop/countertop-small.jpg);
+    background-position: center bottom;
+}
+
+#product-cabinets .product-picture {
+    background-image: url(../../resources/images/cabinets-small.jpg);
+}
+
+#product-cabinets {
+    margin-right: 0;
+}
+
+.product-details {
+    position: absolute;
+    left: 0;
+    right: 0;
+    background-color: #fff;
+    height: 240px;
+    padding: 4px 10px;
+}
+
+span.card-title {
+    display: block;
+    margin: 16px 0 12px 0;
+    text-transform: uppercase;
+    color: #474747;
+    font-family: Roboto;
+    font-weight: lighter;
+    font-size: 1.5em;
+    position: relative;
+    padding: 0 0 0 16px;
+    background-color: #fff;
+}
+
+.product-details p {
+    color: #757575;
+    font-family: Roboto;
+    font-size: 1.1em;
+    margin: 0;
+    overflow: hidden;
+    padding: 16px 16px 0 16px;
+    line-height: 24px;
+    border-top: 1px solid #BDBDBD;
+}
+
+.product-details .product-link {
+    font-family: Roboto;
+    display: block;
+    font-size: 0.8em;
+    font-weight: normal;
+    color: #448AFF;
+    text-transform: uppercase;
+    position: absolute;
+    bottom: 10px;
+}
+
+#get-directions {
+    margin-top: 2em;
+}
+
+#get-directions .accent-button {
+    width: 128px;
+}
+
+#get-directions .accent-button:hover {
+    box-shadow: 0px 3px 6px #999;
+}
+
+/* SERVING TORRENCE */
+
+section.serving-torrence {
+    margin: 0 0 5em 0;
+    position: relative;
+    background-color: #eee;
+    padding: 2em 0 2em 0;
+    height: 650px;
+    background: url(../../resources/images/hollywood-02.jpg) center top no-repeat;
+    background-position: center 0px;
+    background-size: cover;
+    overflow: hidden;
+}
+
+#birds-bg {
+    position: absolute;
+    right: -300px;
+    top: 160px;
+    opacity: 0.7;
+}
+
+.serving-torrence-description {
+    color: #fff;
+    width: 80%;
+    margin: auto;
+    border-left: 4px solid #FF5F00;
+    padding: 1em;
+    transform: translate3d(0,0,0);
+}
+
+.serving-torrence h1 {
+    width: 80%;
+    font-family: Roboto Condensed;
+    text-transform: uppercase;
+    font-size: 2.2em;
+}
+
+.serving-torrence-description p {
+    width: 80%;
+    font-family: Roboto Slab;
+}
+
+/* MORE THAN Flooring */
+
+#more-than-flooring-container {
+    height: 1500px;
+    position: relative;
+    overflow: hidden;
+}
+
+section.more-than-flooring {
+    position: absolute;
+    width: 100%;
+    top: 0;
+    z-index: -1;
+    overflow: hidden;
+}
+
+section.more-than-flooring.fixed {
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    top: 0%;
+    -webkit-backface-visibility: hidden;
+}
+
+section.more-than-flooring.done {
+    position: absolute;
+    top: unset;
+    bottom: 0;
+    overflow: visible;
+}
+
+section.more-than-flooring #cabinet-svg {
+    width: 400px;
+    height: 100%;
+    margin-left: 10%;
+    overflow: visible;
+    transform: translate3d(0,0,0);
+}
+
+.more-then-flooring-right {
+    position: absolute;
+    width: 40%;
+    right: 10%;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #474747;
+    overflow: visible;
+}
+
+.more-then-flooring-right svg {
+    width: 100%;
+    height: 100%;
+}
+
+.more-than-flooring h1 {
+    font-family: Roboto Condensed;
+    font-weight: lighter;
+    font-size: 2.6em;
+    margin-bottom: 0.6em;
+    color: #373737;
+}
+
+.more-then-flooring-right p {
+    font-family: Roboto Slab;
+    font-weight: lighter;
+    font-size: 1.3em;
+    color: #272727;
+}
+
+/* DESIGN HELP */
+
+section.design-help {
+    height: 575px;
+    position: relative;
+    padding: 8em 0;
+    overflow: hidden;
+}
+
+#design-help-img {
+    width: 75%;
+    height: 100%;
+    float: right;
+    margin-right: 25px;
+    box-shadow: -2px 5px 14px #888;
+    border: 8px solid #fff;
+}
+
+.design-help-description-container {
+    width: 280px;
+    background-color: rgba(250, 250, 250, 0.96);
+    position: absolute;
+    left: 140px;
+    top: 250px;
+    border-bottom-right-radius: 25px;
+    border-top-left-radius: 25px;
+    transform: translate3d(0,0,0);
+}
+
+.design-help-description p {
+    padding: 1em;
+    font-family: Roboto Slab;
+    text-align: center;
+}
+
+.design-help-description h1 {
+    background-color: #FF7C39;
+    margin: 0;
+    font-family: Roboto Condensed;
+    font-weight: lighter;
+    text-align: center;
+    padding: 1em;
+    border-top-left-radius: 20px;
+}
+
+/* STEPS */
+
+section.steps {
+    background-color: #333;
+    position: relative;
+}
+
+.steps-bottom-container {
+    padding: 2em 0;
+}
+
+.steps-bottom-container h1 {
+    color: #fff;
+    font-size: 2.4em;
+    text-align: center;
+    font-family: Roboto Condensed;
+    font-weight: lighter;
+}
+
+.steps-bottom-container h4 {
+    color: #448AFF;
+    font-family: Roboto;
+    text-align: center;
+    font-weight: lighter;
+}
+
+#steps-choose-options {
+    margin: auto;
+    display: block;
+    width: 528px;
+    margin-bottom: 3em;
+}
+
+.steps .primary-button-no-link {
+    display: inline-block;
+    width: 200px;
+    padding: 1em;
+    text-align: center;
+}
+
+.primary-button-no-link:hover {
+    background-color: 0px 3px 12px rgb(30, 30, 30, 0.8);
+}
+
+.steps .primary-button-no-link {
+    color: #333;
+    font-family: Roboto Condensed;
+}
+
+.steps .primary-button-no-link:after {
+    content: "";
+    display: block;
+    position: relative;
+    width: 0%;
+    height: 1px;
+    bottom: -30px;
+    margin: auto;
+    background-color: #fff;
+    transition: all 0.2s ease-in-out;
+}
+
+.primary-button-no-link.disabled:after {
+    width: 100%;
+}
+
+.steps .fancy-or {
+    color: #fff;
+    display: inline-block;
+    width: 50px;
+    text-align: center;
+    position: relative;
+}
+
+.fancy-or:after, .fancy-or:before {
+    content: "";
+    height: 20px;
+    width: 1px;
+    position: absolute;
+    background-color: #fff;
+    top: -30px;
+    left: 25px;
+}
+
+.fancy-or:before {
+    top: unset;
+    bottom: -30px;
+}
+
+.steps-bottom-container ul {
+    font-size: 0;
+    width: 1000px;
+    margin: auto;
+    position: relative;
+    overflow: hidden;
+    display: none;
+}
+
+.steps-bottom-container li {
+    font-size: 16px;
+    display: inline-block;
+    position: relative;
+    margin-left: 0px;
+    opacity: 0;
+    transition: all 0.28s ease-in;
+}
+
+.steps-bottom-container li.showing {
+    opacity: 1;
+}
+
+.steps-bottom-container li:first-of-type {
+    margin-left: 0;
+}
+
+.step {
+    background: url(../../resources/images/step-box.png) center no-repeat;
+    height: 220px;
+    width: 250px;
+    position: relative;
+    display: inline-block;
+}
+
+.step:after {
+    color: #333;
+    font-family: Roboto Slab;
+    content: "1";
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 16px;
+    font-size: 1.8em;
+}
+
+.step h4 {
+    font-weight: bold !important;
+    text-transform: uppercase;
+    color: #333;
+    position: absolute;
+    font-family: Roboto Condensed;
+    font-size: 14px;
+    bottom: 28px;
+    left: 28px;
+    width: 78%;
+    text-align: center;
+}
+
+.step-graphic {
+    position: absolute;
+    top: 70px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+#w-step-02:after, #h-step-02:after {
+    content: "2";
+}
+
+#w-step-03:after, #h-step-03:after {
+    content: "3";
+}
+
+#w-step-04:after, #h-step-04:after {
+    content: "4";
+}
+
+.steps-bottom-container .pointer {
+    position: absolute;
+    left: 250px;
+    top: 50%;
+    display: none;
+}
+
+
+.steps-bottom-container .circle {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%) rotate(03deg);
+    top: 8px;
+}
+
+.steps-bottom-container .dashed-circle {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%) rotate(-30deg);
+    top: 6px;
+}
+
+#lg-pointer {
+    position: absolute;
+    right: 130px;
+    top: 200px;
+    display: none;
+}
+
+a.white-button {
+    margin: 1em auto;
+}
+
+.ul-next {
+    font-size: 16px;
+    opacity: 0;
+    text-align: center;
+    transition: all 0.25s ease-in;
+}
+
+.ul-next.showing {
+    opacity: 1;
+}
+
+.steps-bottom-container h4.subheader {
+    text-align: center;
+    color: #fff;
+    font-family: Roboto;
+}
+
+/* TESTIMONIES */
+
+section.testimonies {
+    background-color: #eee;
+    padding: 2em 0;
+}
+
+.testimonies img.testimonies-logo {
+    margin: auto;
+    display: block;
+    width: 622px;
+    display: none;
+}
+
+.testimonies h1 {
+    font-family: Roboto Condensed;
+    font-weight: lighter;
+    font-size: 3em;
+    color: #474747;
+    text-align: center;
+    margin: 0.2em 0;
+    text-shadow: 0px 2px 1px #fff;
+}
+
+.testimates {
+    width: 70%;
+    margin: auto;
+    text-align: center;
+    position: relative;
+}
+
+span.custom-line {
+    width: 50%;
+    height: 1px;
+    background-color: #777;
+    display: block;
+    margin: 0 auto 1em auto;
+}
+
+#quote {
+    margin-top: 2em;
+    padding: 5em 0em;
+    background: url(../images/working.jpg) no-repeat center;
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: #666;
+    background-blend-mode: overlay;
+}
+
+.quote-container {
+    width: 60%;
+    margin: auto;
+    font-family: Roboto;
+    border: 2px solid #fff;
+    border-top-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+    background-color: rgba(0,0,0,0.6);
+    padding: 1em;
+    padding-left: 1.8em;
+}
+
+#quote blockquote {
+    margin: 0 auto 1em auto;
+    color: #fff;
+    font-size: 1.7em;
+    font-style: italic;
+}
+
+#quote span.quote-by {
+    text-transform: uppercase;
+    color: #f85f00;
+    display: block;
+    position: relative;
+    width: 120px;
+    margin: auto;
+}
+
+span.quote-by:after {
+    content: " ";
+    position: absolute;
+    right: -60%;
+    width: 50%;
+    top: 50%;
+    height: 1px;
+    background-color: #f85f00;
+}
+
+span.quote-by:before {
+    content: " ";
+    position: absolute;
+    left: -60%;
+    width: 50%;
+    top: 50%;
+    height: 1px;
+    background-color: #f85f00;
+}
+
+/* FOOTER */
+
+@media (max-width: 1250px) {
+    section.products {
+        padding: 1em;
+    }
+    
+    .products-inner {
+        width: 999px;
+    }
+    .products li {
+        width: 31.15% !important;
+    }
+    
+    .product-details p {
+        font-size: 1em;
+        padding-top: 8px;
+    }
+}
+
+@media (max-width: 1000px) {
+    
+    #main .landing-info-container h1 {
+        font-size: 1.8em !important;
+    }
+    
+    #main .landing-info-container {
+        top: 20%;
+        width: 90%;
+    }
+   
+    .why-choose-us header h1 {
+        font-size: 2em;
+        width: 620px;
+    }
+    
+    .why-choose-us h1:after {
+        content: "";
+        position: absolute;
+        right: -18%;
+        width: 15%;
+        top: 50%;
+        height: 1px;
+        background-color: #474747;
+    }
+
+    .why-choose-us h1:before {
+        content: "";
+        position: absolute;
+        left: -18%;
+        width: 15%;
+        top: 50%;
+        height: 1px;
+        background-color: #474747;
+    }
+    
+    .benefit {
+        height: 400px;
+    }
+    
+    .why-choose-us h4 {
+        font-size: 1.5em !important;
+        margin-top: 0.5em !important;
+    }
+    
+    .why-choose-us .benefit .dots {
+        display: none;
+    }
+    
+    .products-inner li {
+        width: 31.7% !important;
+        height: 500px !important;
+        margin-right: 15px !important;
+    }
+    
+    .product-details {
+        height: 270px;
+    }
+    
+    #product-laminate, #product-cabinets {
+        margin-right: 0 !important;
+    }
+    
+    .products-inner {
+        width: 100%;
+    }
+    
+    .more-than-flooring #cabinet-svg {
+        margin-left: 10px !important;
+    }
+    
+    .more-then-flooring-right {
+        right: 2%;
+        width: 50%;
+        font-size: 0.8em;
+    }
+    
+    .more-then-flooring-right p {
+        margin-top: -0.6em;
+    }
+    
+    .steps ul {
+        width: 100%;
+    }
+    
+    .steps-bottom-container ul li {
+        width: 49.5%;
+    }
+    
+    .steps-bottom-container ul li div {
+        margin: auto;
+        display: block;
+    }
+}
+
+@media (max-width: 860px) {
+    .products li {
+        margin-right: 10px !important;
+        margin-top: -10px;
+        height: 480px !important;
+        width: 49% !important;
+    }
+    
+    #product-laminate {
+        margin-right: 10px !important;
+    }
+    
+    #product-hardwood, #product-tile {
+        margin-right: 0 !important;
+    }
+    
+    .product-details {
+        height: 250px;
+    }
+}
+
+@media (max-width: 800px) {
+    
+    #main .landing {
+        padding-top: 6em;
+    }
+    
+    #main .landing-info-container {
+        padding: 0;
+        border-width: 2px;
+        top: 32%;
+        padding-left: 18px;
+    }
+    
+    #main .landing-info-container h1 {
+        font-size: 1.5em !important;
+        margin: 8px 0 8px 0;
+    }
+    
+    #main .landing-info-container h4 {
+        width: 90%;
+        padding: 0;
+        border: none;
+    }
+    
+    .why-choose-us header h1 {
+        font-size: 1.7em;
+        width: 60%;
+        text-align: center;
+    }
+    
+    .why-choose-us header h1:after {
+        left: 100%;
+        width: 30%;
+    }
+    
+    .why-choose-us header h1:before {
+        left: -30%;
+        width: 30%;
+    }
+    
+    .benefit {
+        display: block;
+        width: 68%;
+        margin: auto !important;
+        border: none;
+        height: 300px;
+    }
+    
+    section.serving-torrence h1 {
+        font-size: 1.5em;
+        text-align: left;
+    }
+    
+    section.more-than-flooring #cabinet-svg {
+        width: 400px;
+        margin: auto;
+    }
+    
+    .scroll-follow-breakpoint {
+        padding-top: 1em;
+    }
+    
+    .more-than-flooring #cabinet-svg {
+        margin: auto !important;
+        display: block;
+    }
+    
+    .more-then-flooring-right {
+        position: relative;
+        display: block;
+        left: 0;
+        margin: 0 auto;
+        width: 90%;
+        top: 0;
+        font-size: 0.9em;
+        transform: none;
+    }
+    
+    .more-then-flooring-right h1 {
+        font-family: Roboto Condensed;
+        font-size: 2.4em;
+    }
+    
+    .products li {
+        margin-right: 5px !important;;
+    }
+    
+    #product-laminate {
+        margin-right: 5px !important;
+    }
+    
+    .design-help-description-container {
+        width: 60%;
+    }
+    
+    #design-help-img {
+        border: none;
+        width: 100%;
+        margin: 0;
+        float: none;
+        box-shadow: none;
+    }
+}
+
+@media (max-width: 720px) {
+    .products-header {
+        width:95%;
+    }
+    
+    .products li {
+        display: block !important;
+        float: none;
+        clear: both;
+        width: 95% !important;
+        margin-left: 2%;
+        height: 450px !important;
+    }
+    
+    .products li:hover {
+        transform: none !important;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.4) !important;
+    }
+    
+    .product-details {
+        height: 210px;
+    }
+    
+    .product-details .product-link {
+        bottom: 0;
+        font-size: 0.9em;
+    }
+    
+    #product-laminate, 
+    #product-tile {
+        height: 420px !important;
+    }
+    
+    #product-laminate .product-details,
+    #product-tile .product-details {
+        height: 185px;
+    }
+    
+    .products .brands {
+        width: 100%;
+    }
+    
+    .products .brands img {
+        width: 90%;
+    }
+    
+    .serving-torrence {
+        background-color: #666 !important;
+        background-blend-mode: overlay;
+    }
+    
+    .serving-torrence-description {
+        width: 90%;
+    }
+    
+    .serving-torrence-description h1 {
+        width: 90%;
+    }
+    
+    .serving-torrence-description p {
+        width: 100%;
+    }
+    
+    section.testimonies img {
+        width: 100% !important;
+    }
+}
+
+
+@media (max-width: 500px) {
+    
+    #main .landing-info-container {
+        top: 26%;
+        border: none;
+        background-color: transparent;
+    }
+    
+    section.more-than-flooring #cabinet-svg {
+        width: 280px;
+    }
+    
+    .why-choose-us h1 {
+        width: 90% !important;
+    }
+    
+    .why-choose-us h1:after {
+        display: none;
+    }
+    
+    .why-choose-us h1:before {
+        display: none;
+    }
+    
+    .benefits-list {
+        width: 100%;
+    }
+    
+    .benefit {
+        width: 100%;
+    }
+    
+    .products {
+        width: 100%;
+        padding: 0 !important;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    .products-inner {
+        width: 100%;
+    }
+    
+    .products li {
+        height: 500px !important;
+        margin-left: 10px;
+    }
+    
+    .products .product-details {
+        height: 255px;
+    }
+    
+    #product-laminate,
+    #product-tile,
+    #product-countertop {
+        height: 530px !important;
+    }
+    
+    #product-laminate .product-details,
+    #product-tile .product-details,
+    #product-countertop .product-details {
+        height: 290px;
+    }
+    
+    .brands {
+        display: none;
+    }
+    
+    .products .accent-button {
+        margin-bottom: 2em;
+    }
+    
+    .brands img {
+        padding-bottom: 3em;
+    }
+    
+    .design-help {
+        height: auto !important;
+        padding: 2em 0 !important;
+    }
+    
+    #design-help-img {
+        display: none;
+    }
+    
+    .design-help-description-container {
+        position: relative;
+        width: 90%;
+        left: unset;
+        top: unset;
+        margin: auto;
+        padding-bottom: 10px;
+        background-color: #eaeaea;
+    }
+    
+    .design-help-description {
+        line-height: 1.5em;
+    }
+    
+    .steps h1 {
+        font-size: 2em;
+    }
+    
+    .steps .primary-button-no-link {
+        display: block;
+        margin-bottom: 2em;
+    }
+    
+    .steps .primary-button-no-link:nth-of-type(3) {
+        margin-top: 1em !important
+    }
+    
+    .steps #steps-choose-options {
+        width: 250px;
+    }
+    
+    .steps .fancy-or {
+        width: 150px;
+        margin: auto;
+        display: block;
+    }
+    
+    .steps .fancy-or:after {
+        width: 60px;
+        height: 1px;
+        top: 9px;
+        left: 70%;
+    }
+    
+    .steps .fancy-or:before {
+        width: 60px;
+        height: 1px;
+        top: 9px;
+        left: unset;
+        right: 70%;
+    }
+    
+    .steps ul {
+        width: 250px;
+    }
+    
+    .steps li {
+        display: block;
+    }
+    
+    #quote {
+        font-size: 0.8em;
+    }
+    
+    #quote .quote-by:after {
+        width: 15px;
+        right: -15px;
+    }
+    
+    #quote .quote-by:before {
+        width: 15px;
+        left: -30px;
+    }
+}
+
+@media (max-width: 400px) {
+    .design-help-description-container {
+        top: 23%;
+    }
+}
